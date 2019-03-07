@@ -23,7 +23,7 @@ kubectl apply -f chaincode_instantaite.yaml
 kubectl apply -f updateAnchorPeers.yaml
 
 ——————
-
+cd ..
 kubectl run rest-api --image=yigitpolat/kworks-meetup --port=3000
 kubectl apply -f rest-api-svc.yaml
 
